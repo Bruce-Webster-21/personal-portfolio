@@ -9,32 +9,31 @@ import ExperienceList from "./ExperienceList";
 import MouseBlob from "./MouseBlob";
 
 export default function App() {
-  const [theme, setTheme] = useState(false);
-  const ThemeFunction = () => {
-    setTheme(!theme);
+  const [darkTheme, setDarkTheme] = useState(false);
+
+  const toggleTheme = () => {
+    setDarkTheme(!darkTheme);
   };
 
+  const containerClass = darkTheme
+    ? "portfolio-container-dark"
+    : "portfolio-container-light";
+
   return (
-    <>
-      <div
-        className={
-          theme ? "portfolio-container-dark" : "portfolio-container-light"
-        }
-      >
-        <div className="main-container">
-          <div className="first-container">
-            <Header ThemeFunction={ThemeFunction} />
-            <Navbar />
-            <SocialMediaList />
-          </div>
-          <div className="second-container">
-            <AboutMe />
-            <ProjectsList />
-            <ExperienceList />
-          </div>
+    <div className={containerClass}>
+      <div className="main-container">
+        <div className="first-container">
+          <Header ThemeFunction={toggleTheme} />
+          <Navbar />
+          <SocialMediaList />
         </div>
-        <MouseBlob />
+        <div className="second-container">
+          <AboutMe />
+          <ProjectsList />
+          <ExperienceList />
+        </div>
       </div>
-    </>
+      <MouseBlob />
+    </div>
   );
 }
