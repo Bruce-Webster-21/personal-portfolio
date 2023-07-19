@@ -1,32 +1,32 @@
 import ExperienceItem from "./ExperienceItem";
+import { v4 as uuidv4 } from "uuid";
 
 export default function ExperienceList() {
-  const jobExperiences = [
+  const experiences = [
     {
-      id: crypto.randomUUID(),
-      title: "english teacher",
+      id: uuidv4(),
+      title: "English Teacher",
       subTitle: "2019 - 2020",
-      description: "lorem ipsum",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      id: crypto.randomUUID(),
-      title: "english teacher",
+      id: uuidv4(),
+      title: "English Teacher",
       subTitle: "2020 - Present",
-      description: "lorem ipsum",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
+
   return (
     <div id="experience">
-      {jobExperiences.map((experience) => {
-        return (
-          <ExperienceItem
-            key={experience.id}
-            title={experience.title}
-            subTitle={experience.subTitle}
-            description={experience.description}
-          />
-        );
-      })}
+      {experiences.map(({ id, title, subTitle, description }) => (
+        <ExperienceItem
+          key={id}
+          title={title}
+          subTitle={subTitle}
+          description={description}
+        />
+      ))}
     </div>
   );
 }
