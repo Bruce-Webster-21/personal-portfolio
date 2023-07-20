@@ -17,14 +17,16 @@ export default function ProjectList() {
       img: projectImg1,
       href: "#",
       title: "TITLE",
-      description: "Description",
+      description:
+        "This website was made with a combination of plain HTML, CSS, and JavaScript, while also incorporating a subtle yet impactful touch of PHP for directory manipulation",
     },
     {
       id: uuidv4(),
       img: projectImg1,
       href: "#",
       title: "TITLE",
-      description: "Description",
+      description:
+        "This website was made with a combination of plain HTML, CSS, and JavaScript, while also incorporating a subtle yet impactful touch of PHP for directory manipulation",
     },
   ];
 
