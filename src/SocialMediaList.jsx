@@ -1,8 +1,10 @@
 import gitHub from "./assets/icons/github.svg";
 import instagram from "./assets/icons/instagram.svg";
 import linkedin from "./assets/icons/linkedin.svg";
-import twitter from "./assets/icons/twitter.svg";
+import twitter from "./assets/icons/x-twitter.svg";
 import whatsapp from "./assets/icons/whatsapp.svg";
+import resume from "./assets/icons/file-lines-solid.svg";
+import brucewebster from "./assets/brucewebster.pdf";
 
 export default function SocialMediaList() {
   const icons = [
@@ -30,6 +32,11 @@ export default function SocialMediaList() {
       id: crypto.randomUUID(),
       img: whatsapp,
       href: "https://wa.me/18296698409",
+    },
+    {
+      id: crypto.randomUUID(),
+      img: resume,
+      href: brucewebster,
     },
   ];
   const email = [
