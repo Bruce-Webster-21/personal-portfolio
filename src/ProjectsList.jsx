@@ -16,7 +16,7 @@ export default function ProjectList() {
     {
       id: uuidv4(),
       img: projectImg2,
-      href: "#",
+      href: "https://sapienzaacademy.com/",
       title: "SAPIENZA ACADEMY",
       description:
         "This dark-themed website for a language academy located in the Dominican Republic was made with a combination of plain HTML, CSS, and JavaScript",
