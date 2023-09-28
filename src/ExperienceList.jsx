@@ -6,35 +6,34 @@ export default function ExperienceList() {
     {
       id: uuidv4(),
       title: "Language Teacher",
-      subTitle:
-        "Academia de lenguas (2019 - 2020)" +
-        <br /> +
-        "Sapienza Academy (2019 - 2020)",
+      time: "2019 - 2020",
+      subTitle: "Academia de lenguas",
       description:
         "I taught English, Spanish, and Italian in the Dominican Republic, providing language education in this diverse and vibrant country.",
     },
     {
       id: uuidv4(),
-      title: "Sapienza Academy",
-      subTitle: "Language Teacher (2020 - 2023)",
-      description:
-        "I taught English, Spanish, and Italian in the Dominican Republic, providing language education in this diverse and vibrant country.",
+      title: "Language Teacher",
+      time: "2019 - 2020",
+      subTitle: "Sapienza Academy",
     },
     {
       id: uuidv4(),
-      title: "Sapienza Academy",
-      subTitle: "Language Teacher (2020 - 2023)",
+      title: "web developer",
+      time: "2020 - present",
+      subTitle: "Freelance",
       description:
-        "I taught English, Spanish, and Italian in the Dominican Republic, providing language education in this diverse and vibrant country.",
+        "I have primarily worked with HTML5, CSS, and vanilla JavaScript but continuously expanded my skill set by delving into technologies like React, PHP, and both relational and nonrelational databases.",
     },
   ];
 
   return (
-    <div id="experience">
-      {experiences.map(({ id, title, subTitle, description }) => (
+    <div className="experience" id="experience">
+      {experiences.map(({ id, title, time, subTitle, description }) => (
         <ExperienceItem
           key={id}
           title={title}
+          time={time}
           subTitle={subTitle}
           description={description}
         />
