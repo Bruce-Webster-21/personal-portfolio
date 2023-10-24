@@ -1,10 +1,13 @@
 {
+  "homepage": "https://bruce-webster-21.github.io/personal-portfolio/",
   "name": "portfolio-3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gb-pages -d build",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
