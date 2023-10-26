@@ -31,7 +31,7 @@ export default function SocialMediaList() {
     {
       id: crypto.randomUUID(),
       img: whatsapp,
-      href: "https://wa.me/18296698409",
+      href: "https://wa.me/18092191228",
     },
     {
       id: crypto.randomUUID(),
