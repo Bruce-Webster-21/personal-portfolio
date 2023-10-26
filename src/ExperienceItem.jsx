@@ -1,3 +1,5 @@
+import "./css/experience-item.css";
+
 export default function ExperienceItem({ title, time, subTitle, description }) {
   return (
     <div className="experience-container">

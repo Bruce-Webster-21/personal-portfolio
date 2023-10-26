@@ -1,5 +1,6 @@
 import github from "./assets/icons/github.svg";
 import link from "./assets/icons/arrow-up.svg";
+import "./css/project-item.css";
 
 export default function ProjectItem({
   title,

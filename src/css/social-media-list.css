@@ -1,0 +1,10 @@
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  height: 25px;
+}
+.icon:last-child {
+  height: 19px;
+}

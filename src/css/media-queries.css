@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1100px) {
+  .first-container {
+    padding-left: 30px;
+  }
+  .second-container {
+    margin: 0 0 0 350px;
+  }
+  .project-container,
+  .experience-container {
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .first-container {
+    position: relative;
+  }
+  .second-container {
+    margin: 0;
+  }
+  .project-container,
+  .experience-container {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .nav-link-container {
+    display: none;
+  }
+  .project-container {
+    flex-direction: column;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .icon-container {
+    margin: 25px 0 0 0;
+  }
+  .theme-toggle {
+    margin-top: 15px;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .first-container {
+    padding: 30px;
+  }
+}

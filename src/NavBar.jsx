@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import "./css/nav-bar.css";
 
 export default function NavBar() {
   const navLinks = [

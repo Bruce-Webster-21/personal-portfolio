@@ -1,0 +1,32 @@
+.project-container {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+  padding: 30px 30px 30px 20px;
+  gap: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 20px;
+  text-align: justify;
+}
+.project-container h3 {
+  font-size: 16px;
+}
+.project-img {
+  width: 150px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.project-title-icons {
+  display: flex;
+  gap: 10px;
+}
+.project-icon {
+  height: 17px;
+  filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
+    brightness(97%) contrast(89%);
+}

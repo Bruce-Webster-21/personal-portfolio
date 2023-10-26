@@ -5,6 +5,7 @@ import twitter from "./assets/icons/x-twitter.svg";
 import whatsapp from "./assets/icons/whatsapp.svg";
 import resume from "./assets/icons/file-lines-solid.svg";
 import brucewebster from "./assets/brucewebster.pdf";
+import "./css/social-media-list.css";
 
 export default function SocialMediaList() {
   const icons = [

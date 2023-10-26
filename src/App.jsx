@@ -1,4 +1,6 @@
-import "./App.css";
+import "./css/App.css";
+import "./css/dark-light-theme.css";
+import "./css/media-queries.css";
 import { useState } from "react";
 import Header from "./Header";
 import Navbar from "./NavBar";

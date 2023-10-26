@@ -1,0 +1,91 @@
+/*---------------------------------------------------------------------------------------------------------*/
+/* Dark theme */
+/*---------------------------------------------------------------------------------------------------------*/
+.portfolio-container-dark {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  color: #d4cec2;
+}
+.portfolio-container-dark a {
+  color: #d4cec2;
+}
+.portfolio-container-dark p {
+  opacity: 0.8;
+}
+.portfolio-container-dark h2,
+h3 {
+  opacity: 0.9;
+}
+.portfolio-container-dark .project-container:hover {
+  background-color: #2d2d2d;
+}
+.portfolio-container-dark .icon {
+  width: 30px;
+  padding-right: 10px;
+  filter: invert(95%) sepia(16%) saturate(198%) hue-rotate(342deg)
+    brightness(87%) contrast(89%);
+}
+.portfolio-container-dark .icon:hover {
+  filter: invert(100%) sepia(0%) saturate(7492%) hue-rotate(9deg)
+    brightness(101%) contrast(102%);
+}
+.portfolio-container-dark .sun {
+  filter: invert(95%) sepia(16%) saturate(198%) hue-rotate(342deg)
+    brightness(87%) contrast(89%);
+}
+.portfolio-container-dark .moon {
+  filter: invert(95%) sepia(16%) saturate(198%) hue-rotate(342deg)
+    brightness(87%) contrast(89%);
+}
+.portfolio-container-dark .blob {
+  background-color: white;
+  opacity: 0.1;
+}
+.portfolio-container-dark .project-icon {
+  height: 17px;
+  filter: invert(95%) sepia(16%) saturate(198%) hue-rotate(342deg)
+    brightness(87%) contrast(89%);
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* Light theme */
+/*---------------------------------------------------------------------------------------------------------*/
+.portfolio-container-light {
+  width: 100%;
+  height: 100%;
+  background-color: #85ada8;
+  color: #222;
+}
+.portfolio-container-light a {
+  color: #222;
+}
+.portfolio-container-light .project-container:hover {
+  background-color: #a0c5bf;
+}
+.portfolio-container-light .icon {
+  width: 30px;
+  padding-right: 10px;
+  filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
+    brightness(97%) contrast(89%);
+}
+.portfolio-container-light .icon:hover {
+  filter: invert(7%) sepia(11%) saturate(3%) hue-rotate(314deg) brightness(92%)
+    contrast(85%);
+}
+.portfolio-container-light .sun {
+  filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
+    brightness(97%) contrast(89%);
+}
+.portfolio-container-light .moon {
+  filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
+    brightness(97%) contrast(89%);
+}
+.portfolio-container-light .blob {
+  background-color: white;
+  opacity: 0.2n;
+}
+.portfolio-container-light .project-icon {
+  height: 17px;
+  filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
+    brightness(97%) contrast(89%);
+}

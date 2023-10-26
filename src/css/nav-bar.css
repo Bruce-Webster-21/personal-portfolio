@@ -1,0 +1,12 @@
+.nav-link-container {
+  display: flex;
+  flex-direction: column;
+}
+.nav-link {
+  padding: 10px 0;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  font-weight: bold;
+  padding-left: 10px;
+}
