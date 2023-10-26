@@ -190,7 +190,7 @@ h3 {
 }
 .project-title-icons {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 .project-icon {
   height: 17px;
