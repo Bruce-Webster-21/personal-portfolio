@@ -9,6 +9,8 @@ export default function ProjectList() {
       id: uuidv4(),
       img: projectImg1,
       href: "https://sunshinemedicaltourism.com/",
+      githubHref:
+        "https://github.com/Bruce-Webster-21/Sunshine-Medical-Tourism-Website",
       title: "SUNSHINE MEDICAL TOURISM",
       description:
         "This website was made with a combination of plain HTML, CSS, and JavaScript, while also incorporating a subtle yet impactful touch of PHP for directory manipulation",
@@ -17,6 +19,7 @@ export default function ProjectList() {
       id: uuidv4(),
       img: projectImg2,
       href: "https://sapienzaacademy.com/",
+      githubHref: "https://github.com/Bruce-Webster-21/sapienzaacademy",
       title: "SAPIENZA ACADEMY",
       description:
         "This dark-themed website for a language academy located in the Dominican Republic was made with a combination of plain HTML, CSS, and JavaScript",
@@ -25,6 +28,7 @@ export default function ProjectList() {
       id: uuidv4(),
       img: projectImg1,
       href: "#",
+      githubHref: "",
       title: "TITLE",
       description:
         "This website was made with a combination of plain HTML, CSS, and JavaScript, while also incorporating a subtle yet impactful touch of PHP for directory manipulation",
@@ -33,11 +37,12 @@ export default function ProjectList() {
 
   return (
     <div id="projects" className="projects-container">
-      {projects.map(({ id, img, href, title, description }) => (
+      {projects.map(({ id, img, href, githubHref, title, description }) => (
         <ProjectItem
           key={id}
           img={img}
           href={href}
+          githubHref={githubHref}
           title={title}
           description={description}
         />
