@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./css/mouse-blob.css";
 
 export default function MouseBlob() {
   const [coords, setCoords] = useState({ x: 0, y: 0 });

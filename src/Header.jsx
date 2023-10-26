@@ -1,5 +1,6 @@
 import Sun from "./assets/icons/sun.svg";
 import Moon from "./assets/icons/moon.svg";
+import "./css/theme-toggle.css";
 
 export default function Header({ ThemeFunction }) {
   const userData = {
