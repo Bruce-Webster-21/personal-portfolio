@@ -30,3 +30,14 @@
   filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
     brightness(97%) contrast(89%);
 }
+
+@media only screen and (max-width: 550px) {
+  .project-container {
+    flex-direction: column;
+    margin: 0;
+    padding: 30px;
+  }
+  .project-img {
+    width: 100%;
+  }
+}

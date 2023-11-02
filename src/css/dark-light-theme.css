@@ -89,3 +89,9 @@ h3 {
   filter: invert(24%) sepia(8%) saturate(771%) hue-rotate(126deg)
     brightness(97%) contrast(89%);
 }
+
+@media only screen and (max-width: 550px) {
+  .portfolio-container-light .project-container:hover {
+    background-color: #a0c5bf00;
+  }
+}

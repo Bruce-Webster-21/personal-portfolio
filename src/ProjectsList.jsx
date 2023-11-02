@@ -10,7 +10,7 @@ export default function ProjectList() {
     {
       id: uuidv4(),
       img: projectImg4,
-      href: "#",
+      href: "https://drvictorestrella.com",
       githubHref: "https://github.com/Bruce-Webster-21/victor-estrella",
       title: "DR. VICTOR ESTRELLA",
       description:
@@ -19,7 +19,7 @@ export default function ProjectList() {
     {
       id: uuidv4(),
       img: projectImg3,
-      href: "#",
+      href: "https://bruce-webster-21.github.io/depiladita/",
       githubHref: "https://github.com/Bruce-Webster-21/depiladita",
       title: "DEPILADITA ESTHETIC",
       description:
